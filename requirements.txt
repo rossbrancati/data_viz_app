@@ -1,0 +1,11 @@
+os
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+streamlit
+plotly.express
+sklearn.cluster
+sklearn.preprocessing
+sklearn.metrics
+scipy.spatial.distance
