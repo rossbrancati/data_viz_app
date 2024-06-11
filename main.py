@@ -32,10 +32,10 @@ st.subheader('1) Select a .csv file')
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Assign folder path
-folder_path = f"{working_dir}/data"
+# folder_path = f"{working_dir}/data"
 
 # List files in data folder
-files_list = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
+# files_list = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 
 # Instead of using a dropdown, have the user upload their csv file
 selected_file = st.file_uploader("Upload a CSV file", type=["csv"])
