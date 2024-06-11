@@ -165,7 +165,7 @@ if selected_file is not None:
 
 
     # Subheader
-    st.subheader('2) Select clustering model and # of clusters')
+    st.subheader('2) Select clustering model and parameters')
 
     if selected_columns:
         # Select clustering model
